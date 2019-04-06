@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="th.ac.kku.jittikonkul.watcharaphon.projecthonghong.MainActivity">
+
+    <ImageView
+
+        android:paddingTop="30dp"
+        android:scaleType="fitXY"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        android:paddingBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:width="320dp"
+                    android:hint="@string/txt_email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="18sp"
+                    android:theme="@style/TextLabel" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="320dp"
+                    android:hint="@string/txt_password"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:theme="@style/TextLabel"
+                    tools:ignore="TextFields" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <com.rey.material.widget.Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:width="250dp"
+                android:background="@drawable/editbackground"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                app:rd_enable="true" />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="bottom"
+                android:text="@string/txt_don_t_have_an_account"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="gotoSG"
+                android:text="@string/txt_sign_up"
+                android:textColor="@color/blue" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

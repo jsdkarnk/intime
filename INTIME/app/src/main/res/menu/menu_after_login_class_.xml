@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="th.ac.kku.jittikonkul.watcharaphon.projecthonghong.afterLogin_class_Activity">
+    <item
+        android:id="@+id/Leave_room"
+        android:orderInCategory="100"
+        android:title="@string/txt_leave_room"
+        app:showAsAction="never" />
+</menu>

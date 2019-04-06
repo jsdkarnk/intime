@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id_class"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/grey"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textAlignment="center"
+
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/lineF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="DisableBaselineAlignment">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <EditText
+                            android:id="@+id/et_numAllClass"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:hint="@string/txt_nn"
+                            android:inputType="numberDecimal"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textSize="36sp" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/et_numAllClass"
+                            android:layout_centerHorizontal="true"
+                            android:text="All Time" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <EditText
+                            android:id="@+id/et_numMissClass"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:hint="@string/txt_nn"
+                            android:inputType="numberDecimal"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textSize="36sp" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/et_numMissClass"
+                            android:layout_centerHorizontal="true"
+                            android:text="Miss Time" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@id/lineF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/bt_save_in_class"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:width="350dp"
+                    android:background="@drawable/save_bt"
+                    android:text="@string/txt_save"
+                    />
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/bt_edit_in_class"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:width="350dp"
+                    android:background="@drawable/edit_bt"
+                    android:text="@string/txt_edit"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="th.ac.kku.jittikonkul.watcharaphon.projecthonghong.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_dd_mm_yyyy"
+            android:textSize="24sp"
+            android:layout_marginBottom="7dp"
+            />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_hh_mm"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_status" />
+
+        <Button
+
+            android:id="@+id/sw_t_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_check_status" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

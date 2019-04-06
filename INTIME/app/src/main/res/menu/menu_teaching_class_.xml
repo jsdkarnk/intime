@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jedsadakarn.kaewma.kku.ac.th.appintime.Teaching_class_Activity">
+
+
+    <item android:title="@string/txt_delete_class" android:id="@+id/delete_class">
+    </item>
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myclass"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="My Classroom" />
+        <item
+            android:id="@+id/nav_classroom"
+            android:checked="true"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="Classroom" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Sign out" />
+
+    </group>
+
+
+
+
+</menu>

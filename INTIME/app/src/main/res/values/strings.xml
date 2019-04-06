@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">InTime</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signin">Sign In</string>
+    <string name="title_activity_after_login">My Class</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_sign_up">Sign up</string>
+    <string name="txt_don_t_have_an_account">Don\'t have an account?</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_first_name">First Name</string>
+    <string name="txt_last_name">Last Name</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_create_account">Create Account</string>
+    <string name="txt_already_have_account">Already have account ?</string>
+    <string name="txt_teaching">Teaching</string>
+    <string name="txt_my_account">My Account</string>
+    <string name="txt_class">Classes</string>
+    <string name="txt_tools">Tools</string>
+    <string name="txt_help">Help</string>
+    <string name="title_activity_teachiname">Teacher Name</string>
+    <string name="title_activity_teachingactivity">TeachingActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="txt_todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="txt_teacher_name">Teacher Name</string>
+    <string name="str_classN">Class_Name</string>
+    <string name="txt_create_class">Create Class</string>
+    <string name="txt_class_name">Class Name</string>
+    <string name="txt_section">Section</string>
+    <string name="txt_all_studying_time">All studying time</string>
+    <string name="txt_the_minimum_number_can_be_missed">The minimum number can be missed</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_nn">NN</string>
+    <string name="txt_edit">Edit</string>
+    <string name="txt_delete_class">Delete Class</string>
+    <string name="title_activity_after_login_class_">afterLogin_class_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_member_name">Member Name</string>
+    <string name="txt_leave_room">Leave room</string>
+    <string name="txt_dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="txt_edit_date">Edit Date</string>
+    <string name="txt_hh_mm">hh:mm</string>
+    <string name="txt_edit_time">Edit Time</string>
+    <string name="txt_on_check">On Check</string>
+    <string name="txt_check_on">Check On</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_check_status">Check Status</string>
+    <string name="txt_status">Status</string>
+</resources>

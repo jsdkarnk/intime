@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_header_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:text="Join class" />
+
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Ask your teacher for the class code and enter it here."
+        android:lines="2"
+        />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textSelectHandle="@color/blue"
+            android:id="@+id/et_classcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="6"
+            android:hint="Class code" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

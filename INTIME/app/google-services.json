@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1042927606926",
+    "firebase_url": "https://projectdwp-a2d49.firebaseio.com",
+    "project_id": "projectdwp-a2d49",
+    "storage_bucket": "projectdwp-a2d49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042927606926:android:ccbc8f49d1cb5d96",
+        "android_client_info": {
+          "package_name": "th.ac.kku.jittikonkul.watcharaphon.projecthonghong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042927606926-ekse63fimq6lo18h66e8gu4schstqk1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.jittikonkul.watcharaphon.projecthonghong",
+            "certificate_hash": "3609a244fa66d4e7f27e1af15857b29cb8bc194d"
+          }
+        },
+        {
+          "client_id": "1042927606926-hujnbldc8a6v96rgkavhi7uvc5tno2lt.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1042927606926-hujnbldc8a6v96rgkavhi7uvc5tno2lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWRpMsw5X71Zm7dcn2J21JMMFhECGHGDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042927606926-hujnbldc8a6v96rgkavhi7uvc5tno2lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
